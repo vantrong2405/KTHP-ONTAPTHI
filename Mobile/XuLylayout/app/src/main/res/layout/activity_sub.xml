@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sub_Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6B00E"
+        android:text="Bạn Đã Chọn"
+        android:textAlignment="center"
+        android:textColor="#185BBD"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_Subphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điện Thoại SamSung"
+        android:textAlignment="center"
+        android:textColor="#15A9BC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
