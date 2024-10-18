@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterAdmin.master.cs" Inherits="DO_AN_TMDT.masterAdmin" %>
+
+    <!DOCTYPE html>
+
+    <html>
+
+    <head runat="server">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--favicon-->
+        <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+        <!--plugins-->
+        <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+        <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+        <!-- loader-->
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link href="assets/css/app.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="assets/css/icons.css" rel="stylesheet">
+        <!-- Theme Style CSS -->
+        <link rel="stylesheet" href="assets/css/dark-theme.css" />
+        <link rel="stylesheet" href="assets/css/semi-dark.css" />
+        <link rel="stylesheet" href="assets/css/header-colors.css" />
+        <title>Chilly Christmas</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </head>
+
+   <body>
+        <form id="form1" runat="server" style="overflow-x:hidden;">
+            <div class="banner1">
+                <!--wrapper-->
+                <div class="wrapper">
+                    <!--start header wrapper-->
+                    <div class="header-wrapper ">
+                        <!--start header -->
+                        <header>
+                            <div class="topbar d-flex align-items-center">
+                                <nav class="navbar navbar-expand">
+                                    <div class="topbar-logo-header" style="border: none; width: 87%;">
+                                            <a href="default.aspx">
+                                                   <img src="./wallpaper/logo3.png"
+                                        class="logo-icon" alt="logo icon" width="38px" height="33px"><span
+                                                class="text-danger ms-2 fs-3" style="font-family: sans-serif;"><i>Chilly Christmas</i></span>   <img src="./wallpaper/logo3.png"
+                                        class="logo-icon" alt="logo icon" width="38px" height="33px">
+                                            </a>
+            
+                                    </div>
+                                    
+                                    <div class="d-flex align-items-center justify-content-between" style="width: 13%;">
+                                        <div><a href="default.aspx"><i
+                                                    class="fa-solid fa-house-chimney fa-2x text-danger me-2"></i></a>
+                                        </div>
+
+                                        <div class="user-box dropdown" style="border: none">
+
+                                            <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret"
+                                                style="border: none" href="#" role="button" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <div><i class="fa-solid fa-user fa-2x text-danger"></i></div>
+                                                <div class="user-info ps-3">
+                                                </div>
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                <li><a class="dropdown-item" href="Login.aspx"><i
+                                                            class="bx bx-log-out-circle"></i><span>Login /
+                                                            Logout</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </header>
+                        <!--end header -->
+                        <!--navigation-->
+                        <div class="nav-container primary-menu">
+                            <div class="mobile-topbar-header">
+                                <div>
+                                    <img src="../../assets/admin/admin/images/logo-icon.png" class="logo-icon" alt="logo icon">
+                                </div>
+                                <div>
+                                    <h4 class="logo-text">Rukada</h4>
+                                </div>
+                                <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+                                </div>
+                            </div>
+                            <nav class="navbar navbar-expand-xl w-100">
+                                <ul class="navbar-nav justify-content-start flex-grow-1 gap-1">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./quanlytaikhoan.aspx">
+                                            <div class="parent-icon"><i class="fa-solid fa-mug-saucer"></i>
+                                            </div>
+                                            <div class="menu-title text-nowrap">Account Management</div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./admin_quanlysanpham.aspx">
+                                            <div class="parent-icon"><i class="fa-solid fa-couch"></i>
+                                            </div>
+                                            <div class="menu-title text-nowrap">Product Management</div>
+                                        </a>
+                                    </li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="page-wrapper">
+                       <div class="page-content">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	</asp:ContentPlaceHolder>
+                       </div>
+                    </div>
+                    <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
+                            class='bx bxs-up-arrow-alt'></i></a>
+                </div>
+                <!--end wrapper-->
+
+                
+                <!--end switcher-->
+                <!-- Bootstrap JS -->
+                <script src="assets/js/bootstrap.bundle.min.js"></script>
+                <!--plugins-->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+                <script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+                <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+                <script src="assets/js/index.js"></script>
+                <!--app JS-->
+                <script src="assets/js/app.js"></script>
+            </div>
+            <div>
+            </div>
+        </form>
+    </body>
+
+    </html>

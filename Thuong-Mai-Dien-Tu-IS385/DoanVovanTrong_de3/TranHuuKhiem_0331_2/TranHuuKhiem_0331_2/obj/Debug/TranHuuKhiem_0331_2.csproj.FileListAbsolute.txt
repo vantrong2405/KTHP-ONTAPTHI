@@ -1,0 +1,14 @@
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.dll.config
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.dll
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.pdb
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.csprojAssemblyReference.cache
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.csproj.CoreCompileInputs.cache
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.dll
+D:\is\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.pdb
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.dll.config
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.dll
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\bin\TranHuuKhiem_0331_2.pdb
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.csprojAssemblyReference.cache
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.csproj.CoreCompileInputs.cache
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.dll
+D:\Downloads\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\TranHuuKhiem_0331_2\obj\Debug\TranHuuKhiem_0331_2.pdb

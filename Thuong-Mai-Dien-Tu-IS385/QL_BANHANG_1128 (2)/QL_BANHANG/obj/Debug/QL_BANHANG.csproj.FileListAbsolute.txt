@@ -1,0 +1,118 @@
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\QL_BANHANG.dll.config
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\QL_BANHANG.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\QL_BANHANG.pdb
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csc.exe
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csc.exe.config
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csc.rsp
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csi.exe
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csi.exe.config
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\csi.rsp
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.Managed.Core.targets
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.AppContext.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Collections.Immutable.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Console.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Globalization.Calendars.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.IO.Compression.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.IO.FileSystem.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Net.Http.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Net.Sockets.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Reflection.Metadata.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.ValueTuple.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Xml.XmlDocument.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Xml.XPath.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\vbc.exe
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\vbc.exe.config
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\vbc.rsp
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\VBCSCompiler.exe
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\roslyn\VBCSCompiler.exe.config
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.AssemblyReference.cache
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.CoreCompileInputs.cache
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.CopyComplete
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\obj\Debug\QL_BANHANG.dll
+E:\bai tap asp\IS385C\QL_BANHANG\QL_BANHANG\obj\Debug\QL_BANHANG.pdb
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\QL_BANHANG.dll.config
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\QL_BANHANG.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\QL_BANHANG.pdb
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csc.exe
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csc.exe.config
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csc.rsp
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csi.exe
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csi.exe.config
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\csi.rsp
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.Managed.Core.targets
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.AppContext.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Collections.Immutable.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Console.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Globalization.Calendars.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.IO.Compression.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.IO.FileSystem.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Net.Http.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Net.Sockets.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Reflection.Metadata.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.ValueTuple.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Xml.XmlDocument.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Xml.XPath.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\vbc.exe
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\vbc.exe.config
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\vbc.rsp
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\VBCSCompiler.exe
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\roslyn\VBCSCompiler.exe.config
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.AssemblyReference.cache
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.CoreCompileInputs.cache
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\obj\Debug\QL_BANHANG.csproj.CopyComplete
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\obj\Debug\QL_BANHANG.dll
+D:\THUONG_MAI_DIEN_TU\QL_BANHANG_1128 (2)\QL_BANHANG\obj\Debug\QL_BANHANG.pdb

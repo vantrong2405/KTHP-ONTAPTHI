@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="QL_BANHANG.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <img src="hinhanh/banner.png" alt="Alternate Text" style="width:100%" />
+        </div>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <td style="width:25%;">Loại hàng
+                        <asp:DataList ID="dl_loai" runat="server" OnSelectedIndexChanged="dl_loai_SelectedIndexChanged">
+                            <ItemTemplate>
+                                <asp:LinkButton ID="LinkButton1" runat="server" Text='<%# Eval("TENLOAI") %>' CommandArgument='<%# Eval("MALOAI") %>' OnClick="LinkButton1_Click"></asp:LinkButton>
+                            </ItemTemplate>
+                        </asp:DataList> 
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td style="width:25%;">login</td>
+                </tr>
+            </table>
+        </div>
+        <div>footer</div>
+    </form>
+</body>
+</html>

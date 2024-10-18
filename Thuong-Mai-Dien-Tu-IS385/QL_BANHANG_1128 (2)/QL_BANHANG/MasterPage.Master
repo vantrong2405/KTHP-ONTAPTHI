@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="QL_BANHANG.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div>
+        <img src="hinhanh/banner.png" style="width: 100%; height: 150px" />
+    </div>
+    <form id="form1" runat="server">
+        <table style="width:100%">
+            <tr>
+                <td style="width:25%">LOẠI HÀNG
+                    <asp:DataList ID="DataList1" runat="server">
+                        <ItemTemplate>
+                            <asp:LinkButton ID="LinkButton1" runat="server" Text='<%# Eval("TenLoai") %>' CommandArgument='<%# Eval("MaLoai") %>' OnClick="LinkButton1_Click"></asp:LinkButton>
+                        </ItemTemplate>
+                    </asp:DataList>
+                </td>
+                <td>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+                <td style="width:25%">
+                    <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate" PasswordLabelText="Mật khẩu:" TitleText="ĐĂNG NHẬP" UserNameLabelText="Tên đăng nhập:">
+                    </asp:Login>
+&nbsp;</td>
+            </tr>
+        </table>
+        <div>
+            footer
+        </div>
+    </form>
+</body>
+</html>

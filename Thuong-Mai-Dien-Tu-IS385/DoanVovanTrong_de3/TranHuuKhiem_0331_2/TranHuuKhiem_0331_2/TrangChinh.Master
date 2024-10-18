@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangChinh.master.cs" Inherits="TranHuuKhiem_0331_2.TrangChinh" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <table class="auto-style1">
+            <tr>
+                <td style="width: 25%">
+                    <h2 style="text-align: center">DANH MỤC</h2>
+                    <div style="margin-left: 15%">
+                        <asp:DataList ID="DataList1" runat="server">
+                            <ItemTemplate>
+                                <style>
+                                    .danhmuc {
+                                        color: #000000;
+                                        font-weight: bold;
+                                        font-style: italic;
+                                        font-size: 20px;
+                                        text-decoration: none;
+                                    }
+                                </style>
+                                <asp:LinkButton CssClass="danhmuc" ID="LinkButton1" runat="server" Text='<%# Eval("TENLOAI") %>' CommandArgument='<%# Eval("MALOAI") %>' OnClick="LinkButton1_Click"></asp:LinkButton>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </div>
+
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server" >
+                    </asp:ContentPlaceHolder>
+
+                </td>
+                <td style="width: 25%">
+                    <asp:Login ID="Login1" runat="server" LoginButtonText="Đăng nhập" OnAuthenticate="Login1_Authenticate" PasswordLabelText="Mật khẩu:" RememberMeText="ghi nhớ mật khẩu." TitleText="Thông tin đăng nhập" UserNameLabelText="Tên đăng nhập:"></asp:Login>
+                </td>
+            </tr>
+        </table>
+            </div>
+    </form>
+</body>
+</html>

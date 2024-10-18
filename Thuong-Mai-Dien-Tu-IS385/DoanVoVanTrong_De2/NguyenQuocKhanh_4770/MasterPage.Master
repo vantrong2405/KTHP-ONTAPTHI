@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="NguyenQuocKhanh_4770.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <h2>DANH MỤC</h2>
+                        <asp:DataList ID="DataList1" runat="server">
+                            <ItemTemplate>
+                                <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("MADANHMUC") %>' Text='<%# Eval("TENDANHMUC") %>' OnClick="LinkButton1_Click"></asp:LinkButton>
+                            </ItemTemplate>
+                        </asp:DataList>
+                    </td>
+                    <td><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder></td>
+                    <td>
+                        <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate"></asp:Login>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
