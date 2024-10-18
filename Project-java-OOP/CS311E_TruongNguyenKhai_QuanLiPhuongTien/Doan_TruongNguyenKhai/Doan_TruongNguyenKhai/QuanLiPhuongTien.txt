@@ -1,0 +1,9 @@
+O001 Toyota 2020 3000 vang Dong co dien 7
+M002 Yamaha 2019 den Cong suat truyen dong 1000 
+T003 Hino Motors 2023 9000 den 1500kg
+O004 BMW 2021 7000 vang Dong co hybrid 9
+T005 Isuzu 2021 10000 do 2000kg
+T006 Iveco 2022 80000 den 1000kg
+M007 Suzuki 2013 den Cong suat dinh muc 8000 
+
+

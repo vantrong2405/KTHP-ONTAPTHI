@@ -1,0 +1,7 @@
+001 Nguyen Phuc An true 24/05/1995 Thuc tap sinh 0357407264 30 4 10 
+002 Lu Van Tuan true 25/09/2000 Giam doc 01234567 30 0 10 
+003 Nguyen Van Phuc true 23/11/2000 Pho phong 01234524 22 0 10 
+004 Nguyen Dinh Ly true 11/11/2000 Truong phong 09272019 30 4 0 
+005 le Ngoc Hoa false 22/05/1999 Nhan vien 0357407264 30 4 10 
+006 Thuy Duong Ngoc false 04/05/2002 Nhan vien 099283218 30 5 20 
+007 Doan Van Gioi true 24/05/2003 Thuc tap sinh 037236422 20 2 19

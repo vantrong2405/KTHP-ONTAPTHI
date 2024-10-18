@@ -1,0 +1,9 @@
+D25341 Ho Van Dang Khoa true Quang Nam 1 12/1/2020 24/1/2020 true SingleRoom 2000
+D67920 Mai Kim Tuyen false Da Nang 2 8/1/2020 15/1/2020 true TwinRoom 3000
+K12563 Ha Huy Bao true TP HCM 4 21/3/2020 30/3/2020 true DoubleRoom 2500
+K54358 Dang Bao Binh true Hue 3 27/2/2020 29/2/2020 false SingleRoom 2000
+D11245 Nguyen Thi Hong Van false Ha Noi 2 6/2/2020 18/2/2020 false SingleRoom 2000 
+K08933 Truong Viet Huy true An Giang 2 11/4/2020 21/4/2020 true TripleRoom 3500 
+K65757 Nguyen Thi Le false Quang Ngai 3 25/5/2020 29/5/2020 false QuadRoom 4000
+D89651 Dao Thi Xuan false Thanh Hoa 3 21/10/2020 2/11/2020 true TripleRoom 3500
+D22311 Le Van Viet true Thanh Hoa 6 9/7/2020 15/9/2020 true DoubleRoom 2000
