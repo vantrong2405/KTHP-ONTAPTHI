@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Triangle Problem\\Source\\Triangle Problem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|D:\\Triangle Problem\\Source\\Triangle Problem\\triangle problem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|D:\\Triangle Problem\\Source\\Triangle Problem\\triangle problem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|d:\\triangle problem\\source\\triangle problem\\triangle problem\\presentsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\presentsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|D:\\Triangle Problem\\Source\\Triangle Problem\\triangle problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|D:\\Triangle Problem\\Source\\Triangle Problem\\triangle problem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|D:\\Triangle Problem\\Source\\Triangle Problem\\triangle problem\\frm_about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FE61E6C-84E7-4CAC-BD54-8E308E46B79F}|Triangle Problem\\Triangle Problem.csproj|solutionrelative:triangle problem\\frm_about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PresentSolution.cs",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\PresentSolution.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\PresentSolution.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\PresentSolution.cs*",
+              "RelativeToolTip": "Triangle Problem\\PresentSolution.cs*",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAwLwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:30:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\Form1.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.cs",
+              "RelativeToolTip": "Triangle Problem\\Form1.cs",
+              "ViewState": "AgIAADcBAAAAAAAAAAAAAD0BAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:46:37.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\Form1.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.cs [Design]",
+              "RelativeToolTip": "Triangle Problem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:46:21.453Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Program.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\Program.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Program.cs",
+              "RelativeToolTip": "Triangle Problem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:30:01.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\Form1.Designer.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\Form1.Designer.cs",
+              "RelativeToolTip": "Triangle Problem\\Form1.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T22:54:42.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_About.cs",
+              "DocumentMoniker": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\frm_About.cs",
+              "RelativeDocumentMoniker": "Triangle Problem\\frm_About.cs",
+              "ToolTip": "D:\\Triangle Problem\\Source\\Triangle Problem\\Triangle Problem\\frm_About.cs",
+              "RelativeToolTip": "Triangle Problem\\frm_About.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:17:27.904Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

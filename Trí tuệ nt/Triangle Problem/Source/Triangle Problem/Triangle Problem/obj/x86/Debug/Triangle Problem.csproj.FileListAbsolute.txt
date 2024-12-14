@@ -1,0 +1,20 @@
+F:\All projects\VS\Triangle Problem\Triangle Problem\bin\Debug\Triangle Problem.exe
+F:\All projects\VS\Triangle Problem\Triangle Problem\bin\Debug\Triangle Problem.pdb
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.Form1.resources
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.Properties.Resources.resources
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.csproj.GenerateResource.Cache
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.exe
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.pdb
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.csprojResolveAssemblyReference.cache
+F:\All projects\VS\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.frm_About.resources
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\bin\Debug\Triangle Problem.exe.config
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\bin\Debug\Triangle Problem.exe
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\bin\Debug\Triangle Problem.pdb
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.csproj.AssemblyReference.cache
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.Form1.resources
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.frm_About.resources
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle_Problem.Properties.Resources.resources
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.csproj.GenerateResource.cache
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.csproj.CoreCompileInputs.cache
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.exe
+D:\Triangle Problem\Source\Triangle Problem\Triangle Problem\obj\x86\Debug\Triangle Problem.pdb
