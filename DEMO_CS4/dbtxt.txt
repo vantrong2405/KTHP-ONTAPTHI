@@ -1,0 +1,181 @@
+CREATE DATABASE PAYROLL;
+USE PAYROLL;
+
+-- Tạo bảng JobPosition (Vị trí công việc)
+CREATE TABLE JobPosition (
+    JobPositionID INT PRIMARY KEY,
+    JobPositionName VARCHAR(100)
+);
+
+-- Tạo bảng Department (Phòng ban)
+CREATE TABLE Department (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR(100)
+);
+
+-- Tạo bảng Branch (Chi nhánh)
+CREATE TABLE Branch (
+    BranchID INT PRIMARY KEY,
+    BranchName VARCHAR(100),
+    BranchLocation VARCHAR(100),
+    BranchTel VARCHAR(20)
+);
+
+-- Tạo bảng EmployeeType (Loại nhân viên)
+CREATE TABLE EmployeeType (
+    EmployeeTypeID INT PRIMARY KEY,
+    EmployeeTypeName VARCHAR(100)
+);
+
+-- Tạo bảng BasicSalary (Mức lương cơ bản)
+CREATE TABLE BasicSalary (
+    BasicSalaryID INT PRIMARY KEY,
+    JobPositionID INT,
+    BasicSalary DECIMAL(15, 2),
+    FOREIGN KEY (JobPositionID) REFERENCES JobPosition(JobPositionID)
+);
+
+-- Tạo bảng Employee (Nhân viên)
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    LastName VARCHAR(100),
+    FirstName VARCHAR(100),
+    Email VARCHAR(100),
+    DateOfBirth DATE,
+    DepartmentID INT,
+    EmployeeTypeID INT,
+    BranchID INT,
+    Gender VARCHAR(10),
+    Ethnicity VARCHAR(50),
+    HomePhone VARCHAR(20),
+    MobilePhone VARCHAR(20),
+    Address TEXT,
+    City VARCHAR(100),
+    State_Province VARCHAR(100),
+    Country_Region VARCHAR(100),
+    Avatar VARCHAR(255),
+    JobPositionID INT,
+    FOREIGN KEY (DepartmentID) REFERENCES Department(DepartmentID),
+    FOREIGN KEY (EmployeeTypeID) REFERENCES EmployeeType(EmployeeTypeID),
+    FOREIGN KEY (BranchID) REFERENCES Branch(BranchID),
+    FOREIGN KEY (JobPositionID) REFERENCES JobPosition(JobPositionID)
+);
+
+-- Tạo bảng JobHistory (Lịch sử công việc)
+CREATE TABLE JobHistory (
+    JobHistoryID INT PRIMARY KEY,
+    EmployeeID INT,
+    StartDate DATE,
+    EndDate DATE,
+    JobDetails TEXT,
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
+);
+
+-- Tạo bảng DayOfRest (Ngày nghỉ)
+CREATE TABLE DayOfRest (
+    DayOfRestID INT PRIMARY KEY,
+    EmployeeID INT,
+    RestDetails TEXT,
+    StartDate DATE,
+    EndDate DATE,
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
+);
+
+-- Tạo bảng Finance (Thông tin tài chính)
+CREATE TABLE Finance (
+    FinanceID INT PRIMARY KEY,
+    EmployeeID INT,
+    Month INT,
+    WorkingDays INT,
+    RestDays INT,
+    Bonus DECIMAL(15, 2),
+    TotalSalary DECIMAL(15, 2),
+    BasicSalaryID INT,
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
+    FOREIGN KEY (BasicSalaryID) REFERENCES BasicSalary(BasicSalaryID)
+);
+
+-- Tạo bảng Payroll (Bảng lương)
+CREATE TABLE Payroll (
+    PayrollID INT PRIMARY KEY,
+    EmployeeID INT,
+    Date DATE,
+    StartTime TIME,
+    EndTime TIME,
+    HoursWorked DECIMAL(5, 2),
+    FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID)
+);
+
+-- Thêm dữ liệu mẫu vào bảng JobPosition
+INSERT INTO JobPosition (JobPositionID, JobPositionName)
+VALUES 
+(1, 'Manager'),
+(2, 'Team Leader'),
+(3, 'Developer'),
+(4, 'Tester'),
+(5, 'HR Specialist');
+
+-- Thêm dữ liệu mẫu vào bảng Department
+INSERT INTO Department (DepartmentID, DepartmentName)
+VALUES 
+(1, 'Human Resources'),
+(2, 'Finance'),
+(3, 'IT'),
+(4, 'Sales'),
+(5, 'Marketing');
+
+-- Thêm dữ liệu mẫu vào bảng Branch
+INSERT INTO Branch (BranchID, BranchName, BranchLocation, BranchTel)
+VALUES 
+(1, 'Head Office', 'Hanoi', '0241234567'),
+(2, 'Branch 1', 'Ho Chi Minh City', '0281234567'),
+(3, 'Branch 2', 'Da Nang', '02361234567'),
+(4, 'Branch 3', 'Can Tho', '02921234567');
+
+-- Thêm dữ liệu mẫu vào bảng EmployeeType
+INSERT INTO EmployeeType (EmployeeTypeID, EmployeeTypeName)
+VALUES 
+(1, 'Full-Time'),
+(2, 'Part-Time'),
+(3, 'Intern'),
+(4, 'Contract');
+
+-- Thêm dữ liệu mẫu vào bảng BasicSalary
+INSERT INTO BasicSalary (BasicSalaryID, JobPositionID, BasicSalary)
+VALUES 
+(1, 1, 30000000),
+(2, 2, 20000000),
+(3, 3, 15000000),
+(4, 4, 12000000),
+(5, 5, 25000000);
+
+-- Thêm dữ liệu mẫu vào bảng Employee
+INSERT INTO Employee (EmployeeID, LastName, FirstName, Email, DateOfBirth, DepartmentID, EmployeeTypeID, BranchID, Gender, Ethnicity, HomePhone, MobilePhone, Address, City, State_Province, Country_Region, Avatar, JobPositionID)
+VALUES 
+(1, 'Nguyen', 'Van A', 'a.nguyen@example.com', '1990-01-01', 3, 1, 1, 'Male', 'Kinh', '0241234567', '0981234567', '123 Street', 'Hanoi', 'Hanoi', 'Vietnam', 'avatar1.jpg', 1),
+(2, 'Le', 'Thi B', 'b.le@example.com', '1992-02-02', 1, 2, 2, 'Female', 'Kinh', '0281234567', '0911234567', '456 Street', 'Ho Chi Minh City', 'HCMC', 'Vietnam', 'avatar2.jpg', 3),
+(3, 'Tran', 'Van C', 'c.tran@example.com', '1995-03-03', 3, 1, 3, 'Male', 'Kinh', '02361234567', '0931234567', '789 Street', 'Da Nang', 'Da Nang', 'Vietnam', 'avatar3.jpg', 3);
+
+-- Thêm dữ liệu mẫu vào bảng JobHistory
+INSERT INTO JobHistory (JobHistoryID, EmployeeID, StartDate, EndDate, JobDetails)
+VALUES 
+(1, 1, '2020-01-01', '2022-12-31', 'Worked as Manager in IT Department'),
+(2, 2, '2021-01-01', '2023-12-31', 'Worked as Developer in HR Department');
+
+-- Thêm dữ liệu mẫu vào bảng DayOfRest
+INSERT INTO DayOfRest (DayOfRestID, EmployeeID, RestDetails, StartDate, EndDate)
+VALUES 
+(1, 1, 'Sick leave', '2023-01-01', '2023-01-07'),
+(2, 2, 'Personal leave', '2023-02-01', '2023-02-03');
+
+-- Thêm dữ liệu mẫu vào bảng Finance
+INSERT INTO Finance (FinanceID, EmployeeID, Month, WorkingDays, RestDays, Bonus, TotalSalary, BasicSalaryID)
+VALUES 
+(1, 1, 6, 20, 2, 2000000, 32000000, 1),
+(2, 2, 6, 22, 0, 1500000, 16500000, 3);branchBranchIDBranchName
+
+-- Thêm dữ liệu mẫu vào bảng Payroll
+INSERT INTO Payroll (PayrollID, EmployeeID, Date, StartTime, EndTime, HoursWorked)
+VALUES 
+(1, 1, '2023-06-01', '08:00:00', '17:00:00', 8.0),
+(2, 2, '2023-06-01', '08:00:00', '16:30:00', 7.5);

@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# môi trường build
+/dist
+/build
+
+# Các tệp cấu hình IDE
+.vscode/
+.idea/
+
+# Các tệp hệ thống
+.DS_Store
+Thumbs.db
