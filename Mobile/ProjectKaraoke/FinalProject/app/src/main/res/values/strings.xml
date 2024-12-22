@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">iKaraoke</string>
+    <string name="search">Search</string>
+    <string name="failed">Failed to initialize Youtube Player</string>
+    <string name="next">Tiếp</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="start">Bắt đầu</string>
+    <string name="title_slide1">Thư viện rộng lớn</string>
+    <string name="desc_slide1">Cập nhật đầy đủ các bài hát mới nhất</string>
+    <string name="title_slide2">Tìm kiếm trực tuyến</string>
+    <string name="desc_slide2">Bạn có thể hát trực tuyến bất chỉ cần bạn có mạng</string>
+    <string name="title_slide3">Cập nhật bài hát liên tục</string>
+    <string name="desc_slide3">Cập nhật liên tục các Vol của Arirang</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_previously_started" />
+    <string name="ikaraoke">iKaraoke</string>
+</resources>
