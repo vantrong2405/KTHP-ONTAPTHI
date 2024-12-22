@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="/dist/popup.bundle.js" type="module"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body
+    style="max-width: 300px; width: 300px; max-height: 450px; height: 450px"
+    class="p-2"
+  >
+    <ul class="nav nav-tabs" id="nav-bar">
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          id="choose-tab-1"
+          aria-current="page"
+          href="#"
+          >Tín Chỉ</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="choose-tab-2" href="#">Khác</a>
+      </li>
+    </ul>
+
+    <div id="tab-1">
+      <!-- show err -->
+      <div
+        class="alert alert-success d-flex justify-content-between d-none position-absolute top-2 end-0"
+        role="alert"
+        id="alert-success"
+      >
+        Đăng kí thành công
+      </div>
+
+      <div
+        class="alert alert-danger d-flex justify-content-between d-none position-absolute top-2 end-0"
+        id="alert-danger"
+        role="alert"
+      >
+        Đăng kí thất bại
+      </div>
+
+      <div
+        class="alert alert-warning position-absolute top-2 end-0"
+        id="warning"
+        role="alert"
+      >
+        This extention only for Dtu !
+      </div>
+
+      <div
+        class="alert alert-warning position-absolute top-2 end-0"
+        id="warning-have-course"
+        role="alert"
+      >
+        Bạn đã chọn môn học rồi ! Xóa rồi chọn môn khác ^^
+      </div>
+      <!-- err -->
+
+      <div id="info-user" class="pt-2">
+        <span id="name">Mã sinh viên của bạn</span>
+        <input
+          type="text"
+          class="form-control"
+          id="student-id"
+          placeholder="Your Student Id"
+        />
+      </div>
+
+      <div class="d-flex justify-content-between mt-2" id="input-add-course">
+        <input
+          type="email"
+          class="form-control"
+          id="ip-id-course"
+          placeholder="Mã môn học "
+        />
+        <button type="button" class="btn btn-success" id="btn-add-id-course">
+          Chọn
+        </button>
+      </div>
+
+      <div>
+        <div class="d-flex justify-content-center pt-3">
+          <img id="img-captcha" />
+        </div>
+
+        <ul class="list-group mt-2" id="list-course"></ul>
+      </div>
+
+      <div id="info"></div>
+      <div id="infoCookie"></div>
+    </div>
+
+    <div id="tab-2">
+      <button id="btn-test" class="btn btn-success mt-5">
+        Đánh giá giảng viên
+      </button>
+    </div>
+
+    <div class="fixed-bottom d-flex justify-content-between px-2 py-2">
+      <a
+        style="bottom: 10px; left: 10px"
+        target="_blank"
+        href="https://drive.google.com/file/d/1izaC-KT653DjsJz6trBm9QahOl7nb5Cv/view"
+        >How to use ?</a
+      >
+
+      <div>
+        Give me a follow :
+        <a
+          style="bottom: 10px; left: 10px"
+          target="_blank"
+          href="https://github.com/cin12211"
+          >@Cinny</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
