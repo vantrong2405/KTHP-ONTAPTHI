@@ -58,13 +58,36 @@ export default function App() {
                 <li id="searchbar_toggle_menu" className="d-none">
                   <a className="nav-link text-secondary" href="#"><label htmlFor="searchbar_toggle" className="d-lg-none"><i className="fa fa-search"></i></label></a>
                 </li>
-                <li className="dropdown">
-                  <a className="nav-link text-secondary dropdown-toggle" data-bs-toggle="dropdown" href="#"><i className="fa fa-user"></i> <span className="d-none d-lg-inline"> {(user && user.name) || ''}</span></a>
-                  <div className="dropdown-menu dropdown-menu-end">
-                    <Link to="/profile" className="dropdown-item"><i className="fa fa-user"></i> Profile</Link>
-                    <Link to="/logout" className="dropdown-item"><i className="fa fa-sign-out"></i> Logout</Link>
-                  </div>
+                <li className="nav-item dropdown">
+              <a
+                className="nav-link text-secondary dropdown-toggle"
+                href="#"
+                id="userDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i className="fa fa-user"></i>
+                <span className="d-none d-lg-inline">
+                  {user && user.name ? user.name : ""}
+                </span>
+              </a>
+              <ul
+                className="dropdown-menu dropdown-menu-end"
+                aria-labelledby="userDropdown"
+              >
+                <li>
+                  <Link to="/profile" className="dropdown-item">
+                    <i className="fa fa-user"></i> Profile
+                  </Link>
                 </li>
+                <li>
+                  <Link to="/logout" className="dropdown-item">
+                    <i className="fa fa-sign-out"></i> Logout
+                  </Link>
+                </li>
+              </ul>
+            </li>
               </ul>
             </div>
           </nav>
@@ -72,6 +95,14 @@ export default function App() {
             <Route user={user} setUser={setUser} />
           </div>
         </div>
+
+
+
+
+
+
+
+
       </div>
       :
       <Route user={user} setUser={setUser} />
