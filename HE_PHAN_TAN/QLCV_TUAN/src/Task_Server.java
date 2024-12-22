@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Date;
 import javax.swing.event.ChangeEvent;
 
-public class TaskClient extends JFrame {
+public class Task_Server extends JFrame {
 
 	private JTextField txtTaskName, txtDescription, txtSearch;
 	private JSpinner txtDueDate;
@@ -42,9 +42,9 @@ public class TaskClient extends JFrame {
 	private static final String DB_USER = "root";
 	private static final String DB_PASSWORD = "Admin123@";
 
-	public TaskClient() {
+	public Task_Server() {
 		setTitle("Task Management");
-		setSize(900, 500);
+		setSize(900, 600);	
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 
@@ -59,100 +59,121 @@ public class TaskClient extends JFrame {
 		initUI();
 		loadAllTasks();
 	}
+	
+	  private JButton createStyledButton(String text) {
+	        JButton button = new JButton(text);
+	        button.setBackground(new Color(70, 130, 180)); // Màu xanh dương nhẹ
+	        button.setForeground(Color.WHITE); // Màu chữ trắng
+	        button.setFont(new Font("Arial", Font.BOLD, 12)); // Font chữ đẹp
+	        button.setPreferredSize(new Dimension(120, 40)); // Kích thước nút
+	        button.setFocusPainted(false);
+	        button.setBorder(BorderFactory.createRaisedBevelBorder());
+	        return button;
+	    }
 
-	private void initUI() {
-		setTitle("Ứng dụng Quản Lý Công Việc");
-		setSize(1000, 600);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		JPanel panel = new JPanel(new BorderLayout());
-		JPanel inputPanel = new JPanel(new GridLayout(8, 2, 10, 10)); 
+	  private void initUI() {
+		    // Thêm tiêu đề ứng dụng
+		    JPanel headerPanel = new JPanel();
+		    headerPanel.setBackground(new Color(70, 130, 180)); // Màu nền tiêu đề
+		    JLabel lblHeader = new JLabel("Ứng dụng Quản Lý Công Việc", JLabel.CENTER);
+		    lblHeader.setForeground(Color.WHITE);  // Màu chữ trắng
+		    lblHeader.setFont(new Font("Arial", Font.BOLD, 24)); // Phông chữ lớn
+		    headerPanel.add(lblHeader);
 
-		inputPanel.add(new JLabel("Tên công việc"));
-		txtTaskName = new JTextField();
-		inputPanel.add(txtTaskName);
+		    JPanel panel = new JPanel(new BorderLayout());
+		    
+		    // Sử dụng GridLayout với 4 hàng, 2 cột
+		    JPanel inputPanel = new JPanel(new GridLayout(4, 4, 10, 10));  // 4 hàng, 2 cột
+		    inputPanel.setBackground(new Color(230, 230, 250)); // Màu nền nhẹ nhàng
 
-		inputPanel.add(new JLabel("Mô tả"));
-		txtDescription = new JTextField();
-		inputPanel.add(txtDescription);
+		    // Cột 1: Tên công việc và Mô tả
+		    inputPanel.add(new JLabel("Tên công việc"));
+		    txtTaskName = new JTextField();
+		    txtTaskName.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho ô nhập
+		    inputPanel.add(txtTaskName);
 
-		inputPanel.add(new JLabel("Ngày hết hạn"));
-		SpinnerDateModel model = new SpinnerDateModel();
-		txtDueDate = new JSpinner(model);
+		    inputPanel.add(new JLabel("Mô tả"));
+		    txtDescription = new JTextField();
+		    txtDescription.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho ô nhập
+		    inputPanel.add(txtDescription);
 
-		JSpinner.DateEditor editor = new JSpinner.DateEditor(txtDueDate, "yyyy-MM-dd");
-		txtDueDate.setEditor(editor);
+		    // Cột 2: Ngày hết hạn và Người dùng
+		    inputPanel.add(new JLabel("Ngày hết hạn"));
+		    SpinnerDateModel model = new SpinnerDateModel();
+		    txtDueDate = new JSpinner(model);
+		    JSpinner.DateEditor editor = new JSpinner.DateEditor(txtDueDate, "yyyy-MM-dd");
+		    txtDueDate.setEditor(editor);
+		    inputPanel.add(txtDueDate);
 
-		inputPanel.add(txtDueDate);
+		    inputPanel.add(new JLabel("Tên người dùng"));
+		    comboUser = new JComboBox<>();
+		    comboUser.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho JComboBox
+		    loadUsers();
+		    inputPanel.add(comboUser);
 
-		JFrame frame = new JFrame("Chọn ngày");
+		    // Cột 3: Danh mục và Trạng thái
+		    inputPanel.add(new JLabel("Danh mục"));
+		    comboCategory = new JComboBox<>();
+		    comboCategory.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho JComboBox
+		    loadCategories();
+		    inputPanel.add(comboCategory);
 
-		inputPanel.add(new JLabel("Tên người dùng"));
-		comboUser = new JComboBox<>();
-		loadUsers();
-		inputPanel.add(comboUser);
+		    inputPanel.add(new JLabel("Trạng thái"));
+		    comboStatus = new JComboBox<>(new String[] { "Pending", "In Progress", "Completed" });
+		    comboStatus.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho JComboBox
+		    inputPanel.add(comboStatus);
 
-		inputPanel.add(new JLabel("Danh mục"));
-		comboCategory = new JComboBox<>();
-		loadCategories();
-		inputPanel.add(comboCategory);
+		    // Cột 4: Tìm kiếm và Nút chức năng
+		    inputPanel.add(new JLabel("Tìm kiếm"));
+		    txtSearch = new JTextField();
+		    txtSearch.setPreferredSize(new Dimension(250, 30)); // Kích thước lớn cho ô nhập
+		    inputPanel.add(txtSearch);
 
-		inputPanel.add(new JLabel("Trạng thái"));
-		comboStatus = new JComboBox<>(new String[] { "Pending", "In Progress", "Completed" });
-		inputPanel.add(comboStatus);
+		    // Nút chức năng với màu sắc tươi sáng
+		    JPanel buttonPanel = new JPanel();
+		    JButton btnAdd = createStyledButton("Thêm công việc");
+		    JButton btnUpdate = createStyledButton("Cập nhật công việc");
+		    JButton btnDelete = createStyledButton("Xóa công việc");
+		    JButton btnSearch = createStyledButton("Tìm kiếm");
+		    JButton btnLoadData = createStyledButton("Tải lại danh sách");
+		    JButton btnClearDataInput = createStyledButton("Làm mới nhập liệu");
 
-		inputPanel.add(new JLabel("Tìm kiếm"));
-		txtSearch = new JTextField();
-		inputPanel.add(txtSearch);
+		    buttonPanel.add(btnAdd);
+		    buttonPanel.add(btnUpdate);
+		    buttonPanel.add(btnDelete);
+		    buttonPanel.add(btnSearch);
+		    buttonPanel.add(btnLoadData);
+		    buttonPanel.add(btnClearDataInput);
 
-		// Buttons
-		JPanel buttonPanel = new JPanel();
-		JButton btnAdd = new JButton("Thêm công việc");
-		JButton btnUpdate = new JButton("Cập nhật công việc");
-		JButton btnDelete = new JButton("Xóa công việc");
-		JButton btnSearch = new JButton("Tìm kiếm");
-		JButton btnLoadData = new JButton("Tải lại danh sách");
-		JButton btnClearDataInput = new JButton("Làm mới nhập liệu");
+		    // Bảng hiển thị công việc
+		    tableModel = new DefaultTableModel();
+		    taskTable = new JTable(tableModel);
+		    tableModel.addColumn("ID");
+		    tableModel.addColumn("Tên công việc");
+		    tableModel.addColumn("Mô tả");
+		    tableModel.addColumn("Ngày hết hạn");
+		    tableModel.addColumn("Tên người dùng");
+		    tableModel.addColumn("Danh mục");
+		    tableModel.addColumn("Trạng thái");
 
-		buttonPanel.add(btnAdd);
-		buttonPanel.add(btnUpdate);
-		buttonPanel.add(btnDelete);
-		buttonPanel.add(btnSearch);
-		buttonPanel.add(btnLoadData);
-		buttonPanel.add(btnClearDataInput);
-		// Table for displaying tasks
-		tableModel = new DefaultTableModel();
-		taskTable = new JTable(tableModel);
-		tableModel.addColumn("ID");
-		tableModel.addColumn("Tên công việc");
-		tableModel.addColumn("Mô tả");
-		tableModel.addColumn("Ngày hết hạn");
-		tableModel.addColumn("Tên người dùng");
-		tableModel.addColumn("Danh mục");
-		tableModel.addColumn("Trạng thái");
+		    JScrollPane scrollPane = new JScrollPane(taskTable);
+		    panel.add(inputPanel, BorderLayout.NORTH);
+		    panel.add(scrollPane, BorderLayout.CENTER);
+		    panel.add(buttonPanel, BorderLayout.SOUTH);
 
-		JScrollPane scrollPane = new JScrollPane(taskTable);
-		panel.add(inputPanel, BorderLayout.NORTH);
-		panel.add(scrollPane, BorderLayout.CENTER);
-		panel.add(buttonPanel, BorderLayout.SOUTH);
-		taskTable.addKeyListener(new KeyAdapter() {
-			@Override
-			public void keyPressed(KeyEvent e) {
-				if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-					onTableCellEdited();
-				}
-			}
-		});
+		    // Thêm sự kiện cho các nút
+		    btnClearDataInput.addActionListener(e -> resetValueInput());
+		    btnAdd.addActionListener(e -> addTask());
+		    btnUpdate.addActionListener(e -> updateTask());
+		    btnDelete.addActionListener(e -> deleteTask());
+		    btnSearch.addActionListener(e -> searchTasks());
+		    btnLoadData.addActionListener(e -> loadAllTasks());
 
-		setContentPane(panel);
-		setTableCellEditor();
-		// Add listeners
-		btnClearDataInput.addActionListener(e -> resetValueInput());
-		btnAdd.addActionListener(e -> addTask());
-		btnUpdate.addActionListener(e -> updateTask());
-		btnDelete.addActionListener(e -> deleteTask());
-		btnSearch.addActionListener(e -> searchTasks());
-		btnLoadData.addActionListener(e -> loadAllTasks());
-	}
+		    setLayout(new BorderLayout());
+		    add(headerPanel, BorderLayout.NORTH);  // Thêm tiêu đề ứng dụng
+		    add(panel, BorderLayout.CENTER);
+		}
+
 
 	private void resetValueInput() {
 		Date currentDate = new Date();
@@ -221,6 +242,7 @@ public class TaskClient extends JFrame {
 	private void loadAllTasks() {
 		try {
 			List<Task> tasks = taskService.getAllTasks();
+			System.out.println("tasks : "+tasks.size());
 			if (tasks == null || tasks.isEmpty()) {
 				JOptionPane.showMessageDialog(this, "Không có công việc nào để tải.", "Thông báo",
 						JOptionPane.INFORMATION_MESSAGE);
@@ -467,7 +489,7 @@ public class TaskClient extends JFrame {
 		SwingUtilities.invokeLater(new Runnable() {
 			@Override
 			public void run() {
-				new TaskClient().setVisible(true);
+				new Task_Server().setVisible(true);
 			}
 		});
 	}

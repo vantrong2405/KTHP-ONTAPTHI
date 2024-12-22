@@ -16,4 +16,8 @@ public interface TaskService extends Remote {
 	List<Task> getAllTasks() throws RemoteException;
 
 	List<Task> getTasksByStatus(String status) throws RemoteException;
+
+	List<Task> getTasksByUser(String username) throws RemoteException;
+	
+    boolean updateTaskStatus(int taskId, String status) throws RemoteException;
 }
